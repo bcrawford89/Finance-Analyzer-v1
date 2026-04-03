@@ -2,6 +2,7 @@ from src.load_data import load_transactions
 from src.clean_data import clean_transactions
 from src.analyze import summarize_finances
 from src.insights import generate_insights
+from src.visualize import plot_spending_by_category
 
 def main() -> None:
     # Load transaction data
@@ -33,6 +34,9 @@ def main() -> None:
             print(f"  - {insight}")
     else:
         print("  - No insights available.")
+    
+    # Print spending chart by category
+    plot_spending_by_category(df)
 
 if __name__ == "__main__":
     main()
