@@ -38,7 +38,8 @@ Raw CSV → Cleaning → Analysis → Insights → Visualization
 ## Example Input (Before Cleaning)
 
 | date      | description       | amount   | category  |
-| 7/30/2025 | GALVAN's EATERY   | -$18.55  | Food      |
+|-----------|-------------------|----------|-----------|
+| 7/30/2025 | GALVAN'S EATERY   | -$18.55  | Food      |
 | 7/30/2025 | Drive INS CO      | -$279.61 | Insurance |
 | 7/31/2025 | COOPERAGE BREWING | -$18.00  | Food      |
 
